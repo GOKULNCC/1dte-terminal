@@ -1,0 +1,8 @@
+requests
+yfinance
+feedparser
+playwright
+beautifulsoup4
+ib_insync
+pywebview
+pywin32

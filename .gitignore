@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.venv/
+venv/
+env/
+.env
+.env.local
+
+# Database — never commit local data
+backend/trading.db
+backend/*.db
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+
+# Node / frontend
+dashboard/node_modules/
+dashboard/dist/
+dashboard/dist-ssr/
+dashboard/.env
+dashboard/.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Playwright
+playwright-report/
+test-results/
+
+# Secrets (never commit)
+*.pem
+*.key
+secrets/
+
+# Claude Code session files
+.claude/
+
+# Local screenshots / output
+dashboard_home.png
+*.png
+!dashboard/src/assets/hero.png
+
+# Windows batch output
+*.tmp
+
+trading_app.jsx
